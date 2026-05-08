@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Grand Palate - Experience the pinnacle of fine dining with our curated menu of gourmet dishes, artisan beverages, and decadent desserts.">
+    <title>The Grand Palate | Premium Dining Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="logo">THE GRAND PALATE</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#about">Philosophy</a></li>
+            <li><a href="#reservation">Reservations</a></li>
+        </ul>
+        <a href="#reservation" class="btn btn-primary" style="padding: 0.8rem 1.5rem;">Book Table</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1>Artistry on a Plate, <br>Soul in Every Bite.</h1>
+            <p>Welcome to The Grand Palate, where culinary excellence meets unparalleled ambiance. Discover a world of flavors crafted by masters.</p>
+            <div class="cta-group">
+                <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                <a href="#about" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About / Philosophy Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+                    <h2 style="font-size: 3.5rem;">Our Philosophy</h2>
+                    <p style="margin: 0; color: var(--primary);">Crafting Excellence, One Plate at a Time.</p>
+                </div>
+                <p>At The Grand Palate, we believe that dining is more than just a meal—it's a symphony of senses. Our philosophy is rooted in the purity of ingredients, the precision of technique, and the passion of our culinary masters.</p>
+                <p>We source only the finest organic produce from local farmers and rare spices from across the globe, ensuring that every bite tells a story of heritage and innovation.</p>
+                
+                <div class="story-box">
+                    <h3>Our Story</h3>
+                    <p>Founded in 2010 by Chef Alessandro Volante, The Grand Palate began as a small boutique kitchen with a vision to redefine luxury dining. Today, it stands as a sanctuary for food connoisseurs, awarded for its commitment to gastronomic perfection and unparalleled hospitality.</p>
+                </div>
+            </div>
+            <div class="about-images">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80" alt="Fine Dining Setting">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="section-header">
+            <h2>Culinary Collections</h2>
+            <p>Indulge in our carefully curated selection of signature dishes, refreshing beverages, and artisanal desserts.</p>
+        </div>
+
+        <div class="menu-tabs">
+            <button class="tab-btn active" data-category="foods">Main Courses</button>
+            <button class="tab-btn" data-category="beverages">Beverages</button>
+            <button class="tab-btn" data-category="desserts">Desserts</button>
+        </div>
+
+        <!-- Foods Category -->
+        <div class="menu-container active" id="foods">
+            <div class="menu-item">
+                <div class="menu-img"><img src="assets/food.png" alt="Signature Dish"></div>
+                <div class="menu-info">
+                    <h3>Truffle Butter Scallops</h3>
+                    <p>Pan-seared Atlantic scallops with pea puree and gold flakes.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$34.99</span>
+                        <span class="old-price">$45.00</span>
+                        <span class="discount-badge">-22%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80" alt="Ribeye Steak"></div>
+                <div class="menu-info">
+                    <h3>Dry-Aged Wagyu Ribeye</h3>
+                    <p>30-day aged wagyu served with roasted marrow and garlic confit.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$89.00</span>
+                        <span class="old-price">$110.00</span>
+                        <span class="discount-badge">-19%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=400&q=80" alt="Mushroom Pasta"></div>
+                <div class="menu-info">
+                    <h3>Forest Mushroom Risotto</h3>
+                    <p>Arborio rice infused with porcini, chanterelles, and truffle oil.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$28.50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80" alt="Grilled Octopus"></div>
+                <div class="menu-info">
+                    <h3>Mediterranean Octopus</h3>
+                    <p>Grilled charred octopus with fingerling potatoes and lemon herb oil.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$42.00</span>
+                        <span class="old-price">$50.00</span>
+                        <span class="discount-badge">-16%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="assets/biryani.png" alt="Royal Biryani"></div>
+                <div class="menu-info">
+                    <h3>Royal Hyderabadi Biryani</h3>
+                    <p>Fragrant basmati rice layered with tender meat, saffron, and aromatic spices.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$24.99</span>
+                        <span class="old-price">$32.00</span>
+                        <span class="discount-badge">BESTSELLER</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=400&q=80" alt="Special Fried Rice"></div>
+                <div class="menu-info">
+                    <h3>Gourmet Wok Fried Rice</h3>
+                    <p>Wok-tossed jasmine rice with seasonal veggies and signature umami sauce.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$18.50</span>
+                        <span class="old-price">$22.00</span>
+                        <span class="discount-badge">-15%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?auto=format&fit=crop&w=400&q=80" alt="Tandoori Chicken"></div>
+                <div class="menu-info">
+                    <h3>Sizzling Chicken Tandoori</h3>
+                    <p>Clay-oven roasted chicken marinated in yogurt and hand-ground spices.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$21.00</span>
+                        <span class="old-price">$28.00</span>
+                        <span class="discount-badge">-25%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Beverages Category -->
+        <div class="menu-container" id="beverages">
+            <div class="menu-item">
+                <div class="menu-img"><img src="assets/drink.png" alt="Signature Cocktail"></div>
+                <div class="menu-info">
+                    <h3>The Golden Elixir</h3>
+                    <p>Premium gin, saffron infusion, rosemary, and elderflower tonic.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$18.00</span>
+                        <span class="old-price">$22.00</span>
+                        <span class="discount-badge">OFFER</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=400&q=80" alt="Smoked Old Fashioned"></div>
+                <div class="menu-info">
+                    <h3>Smoked Old Fashioned</h3>
+                    <p>Bourbon, maple syrup, bitters, smoked with cherry wood bark.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$16.50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=400&q=80" alt="Artisan Coffee"></div>
+                <div class="menu-info">
+                    <h3>Velvet Nitro Cold Brew</h3>
+                    <p>Single-origin beans steeped for 24 hours, nitrogen-infused.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$8.50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=400&q=80" alt="Fruit Juice"></div>
+                <div class="menu-info">
+                    <h3>Fresh Seasonal Fruit Medley</h3>
+                    <p>Cold-pressed juice from the morning's freshest harvest. 100% natural.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$9.50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=400&q=80" alt="Lemon Soda"></div>
+                <div class="menu-info">
+                    <h3>Sparkling Mint Lemon Soda</h3>
+                    <p>Zesty lemon juice, fresh mint, and sparkling soda with a hint of salt.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$7.00</span>
+                        <span class="old-price">$10.00</span>
+                        <span class="discount-badge">HAPPY HOUR</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desserts Category -->
+        <div class="menu-container" id="desserts">
+            <div class="menu-item">
+                <div class="menu-img"><img src="assets/dessert.png" alt="Signature Dessert"></div>
+                <div class="menu-info">
+                    <h3>Molten Gold Lava Cake</h3>
+                    <p>70% dark chocolate, molten gold-infused center, vanilla bean gelato.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$14.00</span>
+                        <span class="old-price">$18.00</span>
+                        <span class="discount-badge">-22%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=400&q=80" alt="Artisan Doughnuts"></div>
+                <div class="menu-info">
+                    <h3>Honey Glazed Pavlova</h3>
+                    <p>Crispy meringue, seasonal berries, honey-infused mascarpone cream.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$12.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=400&q=80" alt="Ice Cream"></div>
+                <div class="menu-info">
+                    <h3>Artisanal Gelato Trio</h3>
+                    <p>Three scoops of handcrafted Italian gelato with seasonal flavors.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$11.50</span>
+                        <span class="old-price">$14.00</span>
+                        <span class="discount-badge">-18%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&q=80" alt="Chocolate Cake"></div>
+                <div class="menu-info">
+                    <h3>Belgian Chocolate Ganache</h3>
+                    <p>Rich, multi-layered chocolate cake with silk-smooth ganache frosting.</p>
+                    <div class="price-tag">
+                        <span class="current-price">$13.00</span>
+                        <span class="old-price">$16.00</span>
+                        <span class="discount-badge">OFFER</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="section-header">
+            <h2>Secure Your Table</h2>
+            <p>Join us for an unforgettable evening. Reservations are highly recommended for dinner service.</p>
+        </div>
+
+        <form class="res-form">
+            <div class="form-grid">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <select required>
+                    <option value="" disabled selected>Number of Guests</option>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4+ People</option>
+                </select>
+                <input type="date" required>
+                <input type="time" required>
+            </div>
+            <textarea rows="4" placeholder="Special Requests (Optional)"></textarea>
+            <button type="submit" class="btn btn-primary" style="margin-top: 2rem; border: none; cursor: pointer; width: 250px;">Reserve Now</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo">THE GRAND PALATE</a>
+                <p>Redefining luxury dining through passion, precision, and the finest ingredients sourced globally.</p>
+                <div class="social-links">
+                    <a href="#">Fb</a>
+                    <a href="#">Ig</a>
+                    <a href="#">Tw</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Hours</h4>
+                <p>Monday - Friday: 5:00 PM - 11:00 PM</p>
+                <p>Saturday - Sunday: 12:00 PM - 12:00 AM</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>123 Luxury Lane, Elite District</p>
+                <p>Phone: +1 (555) 000-GOLD</p>
+                <p>Email: reservations@grandpalate.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 The Grand Palate. All rights reserved. | Designed for Excellence</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
